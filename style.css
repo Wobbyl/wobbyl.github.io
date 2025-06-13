@@ -7,7 +7,18 @@ h1 {
     background-color: #575757;
 }
 
-a {
+.topnav {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    background-color: #575757;
+}
+
+.topnav a {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     padding: 10px;
