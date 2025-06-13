@@ -33,3 +33,7 @@ h1 {
   background-color: #ddd;
   color: black;
 }
+
+.topnav img {
+    size: 100px;
+}
