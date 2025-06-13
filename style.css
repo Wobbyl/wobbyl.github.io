@@ -16,6 +16,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     background-color: #575757;
+    overflow: hidden;
 }
 
 .topnav a {
@@ -35,5 +36,7 @@ h1 {
 }
 
 .topnav img {
-    size: 100px;
+    height: 4%;
+    width: 4%;
+    float: left;
 }
