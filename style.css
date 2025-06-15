@@ -1,18 +1,3 @@
-@font-face {
-    src: url(open-sans.ttf);
-    font-family: open-sans;
-}
-
-body {
-    background-image: url("background.jpeg");
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
-    margin: 15px;
-}
-
 h1 {
     font-family: open-sans;
 }
@@ -23,9 +8,10 @@ p {
 
 .navbar #nav-content a {
     color: white;
-    font-family: open-sans;
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 .navbar ul {
@@ -34,7 +20,7 @@ p {
 }
 
 .navbar {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(82, 82, 82);
     color: white;
     padding: 0px;
     display: block;
@@ -44,14 +30,14 @@ p {
 .navbar li {
     padding: 15px;
     float: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: inline-block;
     font-family: open-sans;
 }
 
 .navbar li:hover {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(112, 112, 112);
 }
 
 .text {
