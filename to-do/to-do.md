@@ -1,1 +1,1 @@
-1) Add favicon |(logo)
+1) Add favicon |(logo) - upload square one
