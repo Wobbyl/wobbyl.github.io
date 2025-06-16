@@ -1,3 +1,39 @@
+/* Fonts */
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.jost-uniquifier {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body & All Content */
+
 body {
     background-color: rgb(27, 27, 27);
 }
@@ -8,3 +44,57 @@ body {
     margin-right: auto;
     display: block;
 }
+
+/* Top Bar (Links & Header) */
+
+.top h1 {
+    font-family: "Jost";
+    color: aliceblue;
+    display: inline;
+}
+
+.top h3 {
+    font-family: "Jost";
+    color: aliceblue;
+    display: inline;
+
+}
+
+
+.top a {
+    text-decoration: none;
+    font-family: "Jost";
+    color: aliceblue;
+    display: inline;
+    padding-left: 1vw;
+    float: right;
+    padding-top: 1vw;
+}
+
+.top a:hover{
+    text-decoration-color: rgb(27, 27, 27);
+    text-decoration: underline;
+}
+
+/* Full Stops */
+
+.period {
+    color: rgb(51, 87, 182);
+}
+
+#period-h3 {
+    color: rgb(51, 87, 182);
+}
+
+#ist {
+    padding-right: 7vw;
+}
+
+/* Main Contect */
+
+.main {
+    padding-top: 5vw;
+    color: aliceblue;
+    font-family: "Jost";
+}
+
