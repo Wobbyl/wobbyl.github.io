@@ -47,7 +47,7 @@ body {
 
 /* Top Bar (Links & Header) */
 
-.top h1 {
+.top h2 {
     font-family: "Jost";
     color: aliceblue;
     display: inline;
@@ -68,7 +68,6 @@ body {
     display: inline;
     padding-left: 1vw;
     float: right;
-    padding-top: 1vw;
 }
 
 .top a:hover{
@@ -78,16 +77,13 @@ body {
 
 /* Full Stops */
 
-.period {
+#period {
     color: rgb(51, 87, 182);
 }
 
-#period-h3 {
+#period-h2 {
     color: rgb(51, 87, 182);
-}
-
-#ist {
-    padding-right: 7vw;
+    display: inline;
 }
 
 /* Main Contect */
