@@ -57,11 +57,10 @@ body {
     font-family: "Jost";
     color: aliceblue;
     display: inline;
-
 }
 
 
-.top a {
+#toplink {
     text-decoration: none;
     font-family: "Jost";
     color: aliceblue;
@@ -70,11 +69,23 @@ body {
     float: right;
 }
 
-.top a:hover{
+#toplink:hover{
     text-decoration-color: rgb(27, 27, 27);
     text-decoration: underline;
 }
 
+#istlink {
+    text-decoration: none;
+    font-family: "Jost";
+    color: aliceblue;
+    display: inline;
+    float: left;
+}
+
+#istlink:hover{
+    text-decoration-color: rgb(27, 27, 27);
+    text-decoration: underline;
+}
 /* Full Stops */
 
 #period {
