@@ -105,6 +105,15 @@ body {
     text-decoration-color: rgb(27, 27, 27);
     text-decoration: underline;
 }
+
+#linktree {
+    border-radius: 100%;
+    display: inline;
+    width: 2em;
+    height: 2em;
+    float: right;
+}
+
 /* Full Stops */
 
 #period {
