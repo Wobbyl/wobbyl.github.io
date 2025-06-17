@@ -45,6 +45,25 @@ body {
     display: block;
 }
 
+/* Float in Animation */
+
+@keyframes FloatIn {
+  0% {
+    transform: translateY(5%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+.main {  
+  animation: 0.5s ease-out 0s 1 FloatIn;
+  
+  padding: 30px;
+}
+
 /* Top Bar (Links & Header) */
 
 .top h2 {
@@ -117,3 +136,4 @@ body {
 .main p {
     font-size: 18px;
 }
+
