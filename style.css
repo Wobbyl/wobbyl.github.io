@@ -146,3 +146,32 @@ body {
     font-size: 18px;
 }
 
+/* Blog Box */
+
+.blogbox img {
+  max-width: 35%;
+  max-height: 35%;
+  border-radius: 5%;
+}
+
+.blogbox {
+  background-color: rgb(49, 49, 49);
+  padding: 1vw;
+  color: aliceblue;
+  font-family: "Jost";
+  border-radius: 5%;
+  box-shadow: inset 0 0 10px #272727;
+}
+
+.blogbox h1 {
+  display: inline;
+  padding: 1vw;
+  vertical-align: top;
+}
+
+.blogbox:hover {
+  background-color: rgb(65, 65, 65);
+  border-radius: 5%;
+  box-shadow: inset 0 0 10px #656565;
+}
+
