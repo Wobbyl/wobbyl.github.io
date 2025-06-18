@@ -64,6 +64,12 @@ body {
   padding: 30px;
 }
 
+.blogbox {
+  animation: 0.5s ease-out 0s 1 FloatIn;
+  
+  padding: 30px;
+}
+
 /* Top Bar (Links & Header) */
 
 .top h2 {
@@ -125,6 +131,11 @@ body {
     display: inline;
 }
 
+#period-h1 {
+    color: rgb(51, 87, 182);
+    display: inline;
+}
+
 /* Main Contect */
 
 .main {
@@ -181,4 +192,14 @@ body {
   box-shadow: inset 0 0 10px #656565;
 }
 
+/* Blog Styling */
 
+.postinfo {
+  color: rgb(66, 66, 66);
+  font-style: italic;
+}
+
+.blogtopimage {
+  max-width: 100%;
+  border-radius: 15px;
+}
