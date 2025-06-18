@@ -163,9 +163,11 @@ body {
   color: aliceblue;
   font-family: "Jost";
   border-radius: 15px;
-  box-shadow: inset 0 0 10px #272727;
+  box-shadow: inset 0 0 10px rgb(27, 27, 27);
   height: 100%;
   margin-bottom: 2vw;
+  display: block;
+  text-decoration: none;
 }
 
 .blogbox h1 {
@@ -178,4 +180,5 @@ body {
   border-radius: 15px;
   box-shadow: inset 0 0 10px #656565;
 }
+
 
