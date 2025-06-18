@@ -152,6 +152,9 @@ body {
   max-width: 35%;
   max-height: 35%;
   border-radius: 5%;
+  display: block;
+  float: left;
+  margin-right: 2vw;
 }
 
 .blogbox {
@@ -161,11 +164,11 @@ body {
   font-family: "Jost";
   border-radius: 5%;
   box-shadow: inset 0 0 10px #272727;
+  height: 100%;
 }
 
 .blogbox h1 {
-  display: inline;
-  padding: 1vw;
+  display: table-cell;
   vertical-align: top;
 }
 
