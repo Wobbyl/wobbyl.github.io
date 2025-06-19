@@ -213,3 +213,21 @@ body {
   display: block;
   box-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
+
+/* Bottom Bar */
+
+.bottom {
+  font-family: "Jost";
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  padding: 0;
+  margin: 0;
+}
+
+#bottombar {
+  padding-left: 1vw;
+}
+
