@@ -226,7 +226,7 @@ body {
   margin: 0;
 }
 
-#long {
+.long {
   font-family: "Jost";
   overflow: hidden;
   position: fixed;
@@ -239,5 +239,6 @@ body {
 
 #bottombar {
   padding-left: 1vw;
+  width: 100%;
 }
 
