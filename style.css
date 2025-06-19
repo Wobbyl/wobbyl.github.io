@@ -219,6 +219,16 @@ body {
 .bottom {
   font-family: "Jost";
   overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  background-color: #181818;
+  padding: 0;
+  margin: 0;
+}
+
+#long {
+  font-family: "Jost";
+  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
