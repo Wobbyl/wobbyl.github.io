@@ -4,3 +4,4 @@
 4) ~~Fix image layout~~
 5) ~~Make separate pages for images~~
 6) Update logo sitewide
+7) Create portfolio
