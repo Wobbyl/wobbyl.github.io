@@ -70,6 +70,13 @@ body {
   padding: 30px;
 }
 
+.portfolio {
+  animation: 0.5s ease-out 0s 1 FloatIn;
+  
+  padding: 30px;
+}
+
+
 /* Top Bar (Links & Header) */
 
 .top h2 {
@@ -224,6 +231,7 @@ body {
   background-color: #181818;
   padding: 0;
   margin: 0;
+  position: fixed;
 }
 
 .long {
@@ -240,4 +248,40 @@ body {
 #bottombar {
   padding-left: 1vw;
   width: 100%;
+}
+
+/* Portfolio Items */
+
+.portfolio {
+  background-color: rgb(49, 49, 49);
+  padding: 1vw;
+  color: aliceblue;
+  font-family: "Jost";
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px rgb(27, 27, 27);
+  height: 100%;
+  width: 26%;
+  margin: 0.5vw;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+.portfolio img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  box-shadow: 4px 4px 10px rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.portfolio h1 {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.portfolio:hover {
+  background-color: rgb(65, 65, 65);
+  border-radius: 15px;
+  box-shadow: inset 0 0 10px #656565;
 }
