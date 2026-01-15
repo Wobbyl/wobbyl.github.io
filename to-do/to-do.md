@@ -11,3 +11,4 @@
 11) Fix blogbox text wrapping
 12) Fix bottom bar on portfolio page
 13) Update linktree
+14) Fix mobile layout
