@@ -12,3 +12,4 @@
 12) Fix bottom bar on portfolio page
 13) Update linktree
 14) Fix mobile layout
+15) Tidy up code
