@@ -255,13 +255,13 @@ body {
 }
 
 #bottombar a {
-  text-decoration: none;
+  text-decoration: underline;
   color: rgb(66, 66, 66);
   padding: 0px;
 }
 
 #bottombar a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(66, 66, 66);
   padding: 0px;
 }
