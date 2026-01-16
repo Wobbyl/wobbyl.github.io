@@ -254,6 +254,30 @@ body {
   width: 100%;
 }
 
+#bottombar a {
+  text-decoration: none;
+  color: rgb(66, 66, 66);
+  padding: 0px;
+}
+
+#bottombar a:hover {
+  text-decoration: underline;
+  color: rgb(66, 66, 66);
+  padding: 0px;
+}
+
+#bottombar a:active {
+  text-decoration: underline;
+  color: rgb(66, 66, 66);
+  padding: 0px;
+}
+
+#bottombar a:visited {
+  text-decoration: underline;
+  color: rgb(66, 66, 66);
+  padding: 0px;
+}
+
 /* Portfolio Items */
 
 .portfolio {
