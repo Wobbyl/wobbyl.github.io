@@ -229,7 +229,7 @@ body {
   overflow: hidden;
   bottom: 0;
   width: 100%;
-  background-color: #181818;
+  background-color: rgb(27, 27, 27);
   padding: 0;
   margin: 0;
   position: fixed;
@@ -242,7 +242,7 @@ body {
   overflow: hidden;
   bottom: 0;
   width: 100%;
-  background-color: #181818;
+  background-color: rgb(27, 27, 27);
   padding: 0;
   margin: 0;
   position: fixed;
@@ -255,7 +255,6 @@ body {
   font-family: "Jost";
   color: rgb(66, 66, 66);
   font-style: italic;
-  max-width: 100vh;
 }
 
 #bottombar a {
